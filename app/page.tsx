@@ -1,4 +1,4 @@
 const Home = async () => {
-    return <>most simple page ever</>;
+    return <div>most simple page ever</div>;
 };
 export default Home;

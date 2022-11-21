@@ -1,5 +1,4 @@
 import MainHeader from "./MainHeader";
-import "@algolia/autocomplete-theme-classic/dist/theme.min.css";
 
 type HeaderProps = {};
 
