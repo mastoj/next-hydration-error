@@ -1,25 +1,8 @@
 "use client";
-import React, { useState } from "react";
-import { IoSearchOutline } from "react-icons/io5";
-
-const SearchField = () => {
-    return (
-        <div className="flex px-4 h-16 w-full justify-center items-center">
-            <input
-                type="text"
-                className="transition-border duration-500 rounded-3xl bg-secondary-neutral pl-4 pr-14 py-2 outline-0 focus:border focus:border-accent-neutral focus:rounded-sm focus:bg-white focus:shadow-primary-extra-light focus:shadow-md text-sm text-ellipsis w-full"
-                placeholder="Søk etter produkter, merker og mer"
-            />
-            <div className="h-6 w-6 flex items-center justify-center -ml-8">
-                <IoSearchOutline className="h-5 w-5 hover:h-6 hover:w-6 text-accent-neutral justify-self-center" />
-            </div>
-        </div>
-    );
-};
+import React from "react";
 
 type MainHeaderProps = {};
 const MainHeader = ({}: MainHeaderProps) => {
-    const [showMenu, setShowMenu] = useState(false);
     return (
         <>
             <div className="z-30 h-32 md:h-16 overflow-y-visible bg-white">
